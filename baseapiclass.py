@@ -2,14 +2,14 @@ import requests
 import base64
 import datetime
 
-client_id, client_secret = "a10c32b0e8874c7e90984cb15053dbc1", "1cb585f9b30a486da168170f2d8183b9"
+client_id, client_secret = "", ""
 
 
 class SpotifyAPI(object):
     access_token = None
     access_token_expires = None
-    client_id = "a10c32b0e8874c7e90984cb15053dbc1"
-    client_secret = "1cb585f9b30a486da168170f2d8183b9"
+    client_id = ""
+    client_secret = ""
     access_token_did_expire = True
 
     token_url = "https://accounts.spotify.com/api/token"
